@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Guessing Game</title>
+        <script src="guess.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
+	</head>
+	<body>
+        <div id="intro">
+            <p>This is a simple guessing game.</p>
+        </div>
+        <div id="instructions">
+            <p>I will think of a number between 1 and 100 and you have to guess what it is.  Type your guess into the box below.</p>
+        </div>
+        <div id="game">
+            <div id="guesses">
+                <p>Take a guess.</p>
+                <input type="number" name="userGuess" id="userGuess"></input>
+                <div id="guessButton">
+                    <p>Submit guess</p>
+                </div>
+            </div>
+            <div id="prevGuesses"></div>
+            <div id="result"></div>
+        </div>
+	</body>
+</html>
